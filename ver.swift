@@ -8,6 +8,14 @@
 
 import UIKit
 
+//
+// Now, these all equal true.
+//
+// "abcde"[0] == "a"
+// "abcde"[0...2] == "abc"
+// "abcde"[2..<4] == "cd"
+//
+
 extension String {
     
     subscript (i: Int) -> Character {
@@ -24,6 +32,8 @@ extension String {
         return self[Range(start ..< end)]
     }
 }
+
+// Convert a Character to an integer.  So '3' becomes interceder 3.
 
 extension Character {
     var integerValue:Int {
