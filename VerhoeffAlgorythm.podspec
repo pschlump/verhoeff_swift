@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = VerhoeffAlgorithm"
+  s.name             = "VerhoeffAlgorithm"
   s.version          = "0.1.0"
   s.summary          = "A Verhoeff Checksum for Swift"
 
